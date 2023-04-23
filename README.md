@@ -50,7 +50,7 @@ const WrappedSingleListItem = ({
   text,
 }) => {
   return (
-    <li className="w-1/4 h-10 ml-52 mt-9 items-center border-2-transparent rounded-md list"
+    < li className="w-1/4 h-10 ml-52 mt-9 items-center border-2-transparent rounded-md list"
       style={{ backgroundColor: isSelected ? 'green' : 'red'}}
       onClick={() => onClickHandler(index)} //callback is not defined 
       > 
